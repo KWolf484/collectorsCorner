@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(243, 235, 229);
+}
+.sitenav {
+    display: grid;
+    grid-template-columns: 12% repeat(4, 1fr) 12%;
+    grid-gap: 1em;
+    position: relative;
+    
+}
+.navitem {
+    background-color: rgb(60, 60, 60);
+    color: seashell;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 15px;
+    padding: 12px;
+    
+}
+.mainbody {
+    display: grid;
+    grid-template-columns: 12% 50% repeat(2,1fr) 12%;
+}
+.mainbody div {
+    text-align: center;
+}
