@@ -1,28 +1,24 @@
-body {
-    background-color: rgb(243, 235, 229);
+*{
+    padding: 0;
+    margin: 0;
 }
-.sitenav {
-    display: grid;
-    grid-template-columns: 12% repeat(4, 1fr) 12%;
-    grid-gap: 1em;
+.banner{
+    background-color: #5e5e5e;
     position: relative;
+    height: 100px;
+    width: 800px;
+    margin: auto;
     
 }
-.navitem {
-    background-color: rgb(60, 60, 60);
-    color: seashell;
+.sitenav{
+    position: relative;
+       
+    color: red;
     font-size: 20px;
-    text-transform: capitalize;
-    font-family: cursive;
-    text-align: center;
-    border-radius: 15px;
-    padding: 12px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
-.mainbody {
+.navitems{
     display: grid;
-    grid-template-columns: 12% 50% repeat(2,1fr) 12%;
+    grid-template-columns: 5em;
 }
-.mainbody div {
-    text-align: center;
-}
+    
