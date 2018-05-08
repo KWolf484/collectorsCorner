@@ -27,6 +27,7 @@ body{
     display: grid;
     grid-gap: 10px;
     padding: 0;
+    margin: 0.75em;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);
     /* background: #fff; */
@@ -34,8 +35,20 @@ body{
 }
 .sitenav a{
    display: block;
-   text-decoration: none;
-   text-align: center;
+   color: #000;
    background-color: #fff;
+   text-decoration: none;
+   /* align-content: end;    */
+   text-align: center;
+   margin-top: 75px;
 }
-    
+
+.sitenav a:hover{
+    color: #fff;
+    background-color: #000;
+}
+   
+#register{
+    color: red;
+    margin-top: 27px;
+}
