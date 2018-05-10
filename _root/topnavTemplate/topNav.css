@@ -1,0 +1,54 @@
+:root{
+  /* name vars  */
+  }
+  *{
+  padding: 0;
+  margin: 0;
+  }
+  html{
+  
+  }
+  body{
+      background: #ccc;
+      margin: 0 5%;
+  }
+  .banner{
+      box-sizing: border-box;
+      background-color: #5e5e5e;
+      height: 100px;
+      max-width: auto
+  ;
+      margin: auto;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+      
+  }
+  .sitenav ul{
+      display: grid;
+      grid-gap: 4px;
+      padding: 0;
+      margin: 0.75em;
+      list-style: none;
+      grid-template-columns: repeat(6, 1fr);
+      /* background: #fff; */
+         
+  }
+  .sitenav a{
+     display: block;
+     color: #000;
+     background-color: #fff;
+     text-decoration: none;
+     text-align: center;
+     margin-top: 75px;
+  }
+  
+  .sitenav a:hover{
+      color: #fff;
+      background-color: #000;
+  }
+     
+  #register{
+      color: red;
+  }
+  
